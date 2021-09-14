@@ -12,4 +12,17 @@ export class ParuComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  name = "Parkavi";
+  Paru="pro1"
+  Kavi=true;
+  sampleData=''
+  
+
+
+  OnButton(fullName:any){
+    this.name="Kanmani"
+    
+  }
+
 }

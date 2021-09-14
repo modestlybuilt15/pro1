@@ -1,2 +1,18 @@
-<p>paru works!</p>
-clear
+<div [id]="Paru" >
+    <h1>Hey {{name}}</h1>
+  </div>
+  
+  <div [class.text-success]="Kavi" >
+    <h2> Welcome </h2>
+    
+  </div>
+
+  <div [style.color]="Kavi?'pink':'yellow'">
+    
+  </div>
+  
+  <button class="me" type="button" (click)="OnButton()" >Click me!</button>
+  
+  
+  <p>{{sampleData}}</p>
+  
